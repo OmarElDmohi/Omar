@@ -1,13 +1,22 @@
 /* General */
 *{
-    padding:0;
-    margin:0;
-    box-sizing: border-box;
+  margin:0;
+  box-sizing: border-box;
 }
 body{
-    background-color:#fff;
-    height:4000px;
-    font-family: Georgia, "Times New Roman", Times, serif;
+  background-color:#fff;
+  height:4000px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.services{
+  padding:75px 0px;
+}
+
+.third{
+  width:30%;
+  margin-right:3%;
+  float:left;
 }
 
 .size-container{
@@ -33,19 +42,22 @@ body{
     list-style: none;
     float:left;
     overflow:hidden;
+    padding-left:0px;
 }
 
 .header-container .header .site-map ul li{
     float:left;
-    margin:5px;
-    padding:0 20px;
+    padding:10px 15px;
     text-transform:uppercase;
-    border-left:.5px solid #666;
+    border-left:.5px solid #444;
+    font-size:10px;
 }
 
 .header-container .header .site-map ul li:first-of-type{
     border:none;
-    color:#C84F4F
+    color:#C84F4F;
+    font-size: 15px;
+    padding-left:0px;
 }
 
 
@@ -53,10 +65,12 @@ body{
     overflow:hidden;
     float:right;
     color: #999;
+    padding-left:0px;
 }
 
 .header-container .header .contact ul{
     list-style: none;
+    padding-left:0px;
 }
 
 .header-container .header .contact ul li{
@@ -69,6 +83,7 @@ body{
 
 .header-container .header .contact ul li:first-of-type{
     border:none;
+    padding-left:0px;
 }
 
 
@@ -90,6 +105,7 @@ body{
     float:left;
     font-size:20px;
     margin:35px;
+    margin-left:0px;
 }
 
 
@@ -148,4 +164,44 @@ body{
     color:#eee;
     padding:20px;
     margin-bottom:100px;
+}
+
+
+
+
+.services{
+  overflow: hidden;
+  color:white;
+}
+
+.services .service{
+  background-color:#C84F4F;
+  height:120px;
+  overflow: hidden;
+}
+
+.services .service:nth-of-type(2){
+  color:#C84F4F;
+  background-color:white;
+  border:2px solid #C84F4F;
+}
+
+.services .service i{
+  font-size:40px;
+  float:left;
+  padding:20px;
+  width:30%;
+}
+
+.services .service .info{
+  float:left;
+  width:70%;
+  text-align:left;
+  margin-top:30px;
+}
+
+.services .service .info p:first-of-type{margin-bottom:10px;}
+
+.services .service .info p:last-of-type{
+
 }
