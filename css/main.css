@@ -1,0 +1,151 @@
+/* General */
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#fff;
+    height:4000px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.size-container{
+    text-align:center;
+    overflow:hidden;
+
+    width:75%;
+    margin:0 auto;
+}
+
+/* Start Header Container*/
+.header-container .header{
+    background-color:#000;
+}
+
+.header-container .header .site-map{
+    color:#777;
+    overflow:hidden;
+    float:left;
+}
+
+.header-container .header .site-map ul{
+    list-style: none;
+    float:left;
+    overflow:hidden;
+}
+
+.header-container .header .site-map ul li{
+    float:left;
+    margin:5px;
+    padding:0 20px;
+    text-transform:uppercase;
+    border-left:.5px solid #666;
+}
+
+.header-container .header .site-map ul li:first-of-type{
+    border:none;
+    color:#C84F4F
+}
+
+
+.header-container .header .contact{
+    overflow:hidden;
+    float:right;
+    color: #999;
+}
+
+.header-container .header .contact ul{
+    list-style: none;
+}
+
+.header-container .header .contact ul li{
+    float:left;
+    font-size:12px;
+    margin:5px;
+    padding:0 20px;
+    border-left:.5px solid #666;
+}
+
+.header-container .header .contact ul li:first-of-type{
+    border:none;
+}
+
+
+
+
+.header-container .header-background{
+    background-color:#1a1a1a;
+}
+
+
+
+.header-container nav{
+    color:#ccc;
+    border-bottom:2px solid #555;
+    overflow:hidden;
+}
+
+.header-container nav span{
+    float:left;
+    font-size:20px;
+    margin:35px;
+}
+
+
+.header-container nav ul{
+    float:right;
+    list-style:none;
+}
+
+.header-container nav ul li{
+    float:left;
+    margin:35px 10px;
+    text-transform:uppercase;
+}
+
+
+
+.header-container section{
+    text-align:center;
+}
+
+
+.header-container section ul{
+    overflow:hidden;
+    margin-top:180px;
+}
+
+.header-container section ul li{
+    text-align: center;
+    display:inline-block;
+    color:#666;
+    border:1px solid #666;
+    padding-top:24px;
+    margin:10px;
+    width:100px;
+    height:100px;
+}
+
+.header-container section h1{
+    color:#ddd;
+    font-size:50px;
+    margin:50px;
+    margin-bottom:20px;
+}
+
+.header-container section p{
+    color:#ddd;
+    width:700px;
+    margin: auto;
+    margin-bottom:40px;
+}
+
+.header-container section button{
+    background:none;
+    border:none;
+    background-color:#C84F4F;
+    color:#eee;
+    padding:20px;
+    margin-bottom:100px;
+}
